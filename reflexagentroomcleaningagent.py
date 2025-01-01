@@ -20,7 +20,7 @@ class RoomCleanerAgent:
     def display_room(self):
         # Display the current status of the room grid
         for row in self.grid:
-          for cell in row):
+          for cell in row:
             print(' '.join(str(cell)))
           print("\n")
 
